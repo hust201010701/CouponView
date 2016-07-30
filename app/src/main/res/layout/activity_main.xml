@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:coupon="http://schemas.android.com/apk/res-auto"
@@ -9,8 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.orzangleli.demo.MainActivity">
+    tools:context="com.orzangleli.demo.MainActivity"
+    android:background="#ffffff"
+    >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
     <com.orzangleli.demo.view.CouponView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +27,8 @@
         coupon:radius="5dp"
         coupon:radiusBackgroundColor="#ffffff"
         coupon:showHorizontal="false"
-        coupon:showVertical="true"
+        coupon:showVertical="false"
+        android:layout_marginTop="10dp"
         >
 
         <TextView
@@ -59,5 +67,156 @@
 
         </com.orzangleli.demo.view.CouponView>
 
+    <com.orzangleli.demo.view.CouponView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FF9933"
+        coupon:gap="4dp"
+        coupon:radius="5dp"
+        coupon:radiusBackgroundColor="#ffffff"
+        coupon:showHorizontal="true"
+        coupon:showVertical="false"
+        android:layout_marginTop="10dp"
+        >
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="购物优惠券"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="满50元减10元"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用期限：一周内"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            />
+
+
+    </com.orzangleli.demo.view.CouponView>
+
+    <com.orzangleli.demo.view.CouponView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FF9933"
+        coupon:gap="4dp"
+        coupon:radius="5dp"
+        coupon:radiusBackgroundColor="#ffffff"
+        coupon:showHorizontal="false"
+        coupon:showVertical="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="购物优惠券"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="满50元减10元"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用期限：一周内"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            />
+
+
+    </com.orzangleli.demo.view.CouponView>
+
+    <com.orzangleli.demo.view.CouponView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FF9933"
+        coupon:gap="4dp"
+        coupon:radius="5dp"
+        coupon:radiusBackgroundColor="#ffffff"
+        coupon:showHorizontal="true"
+        coupon:showVertical="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="购物优惠券"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="满50元减10元"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用期限：一周内"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_vertical"
+            />
+
+
+    </com.orzangleli.demo.view.CouponView>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
