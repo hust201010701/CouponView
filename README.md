@@ -6,7 +6,7 @@ CouponView 是一个继承自LinearLayout的布局View,边缘可以实现自动�
 
 下图所示的四种视图，分别代表，不裁剪，只裁横向，只裁竖向，横竖皆裁四种情况。
 
-<img src="http://i.imgur.com/pj4XTxr.png" width="50%" height="50%">
+<img src="http://i.imgur.com/pj4XTxr.png" width="30%" height="30%">
 
 2.使用方法(暂时做库还不会，不好意思，可以直接复制文件使用)：
 
@@ -67,9 +67,13 @@ CouponView 是一个继承自LinearLayout的布局View,边缘可以实现自动�
 3.属性解释：
 	
 gap:间隔线长度
+
 radius:圆弧半径
+
 radiusBackgroundColor:圆背景颜色   一般来说需要与主背景颜色相同
+
 showHorizontal:显示横向裁剪
+
 showVertical:显示竖向裁剪
 
 
