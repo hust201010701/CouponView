@@ -6,7 +6,7 @@ CouponView 是一个继承自LinearLayout的布局View,边缘可以实现自动�
 
 下图所示的四种视图，分别代表，不裁剪，只裁横向，只裁竖向，横竖皆裁四种情况。
 
-![](http://i.imgur.com/pj4XTxr.png)
+![](http://i.imgur.com/pj4XTxr.png = 300x)
 
 2.使用方法(暂时做库还不会，不好意思，可以直接复制文件使用)：
 
