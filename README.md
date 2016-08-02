@@ -8,9 +8,15 @@ CouponView 是一个继承自LinearLayout的布局View,边缘可以实现自动�
 
 <img src="http://i.imgur.com/pj4XTxr.png" width="30%" height="30%">
 
-2.使用方法(暂时做库还不会，不好意思，可以直接复制文件使用)：
+2.使用方法：
 
-	<com.orzangleli.demo.view.CouponView
+	在build.gradle中添加一行： 
+	
+	compile 'com.orzangleli.coupon:coupon:1.0.1'
+
+在布局文件中添加代码：
+	
+	<com.orzangleli.coupon.view.CouponView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -18,8 +24,8 @@ CouponView 是一个继承自LinearLayout的布局View,边缘可以实现自动�
         coupon:gap="4dp"
         coupon:radius="5dp"
         coupon:radiusBackgroundColor="#ffffff"
-        coupon:showHorizontal="false"
-        coupon:showVertical="false"
+        coupon:showHorizontal="true"
+        coupon:showVertical="true"
         android:layout_marginTop="10dp"
         >
 
@@ -57,7 +63,7 @@ CouponView 是一个继承自LinearLayout的布局View,边缘可以实现自动�
             />
 
 
-        </com.orzangleli.demo.view.CouponView>
+    </com.orzangleli.coupon.view.CouponView>
 
 
 注意在父节点上添加一行：
